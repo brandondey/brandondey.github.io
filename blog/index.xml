@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Brandon Dey</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on Brandon Dey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bias in the Machine?</title>
+      <link>/blog/drafts/pro-publica-machine-bias/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/drafts/pro-publica-machine-bias/</guid>
+      <description>Goals of this post  Plot Data Science books over time to show rise in data science tech and conversations. - visualize covers of books somehow. - https://docs.aws.amazon.com/AWSECommerceService/latest/DG/becomingDev.html - https://docs.aws.amazon.com/AWSECommerceService/latest/DG/becomingAssociate.html - Conclude something about the use of this predicting recidivism to inform sentencing/type of rehabilitation and explain. - https://stackoverflow.com/questions/8251632/amazon-product-api-with-r  Intro I&#39;m over two years late to the party. In the Spring of 2016 Pro Publica wrote an article titled &amp;ldquo;Machine Bias&amp;rdquo;, the gist of which is in its subtitle: &amp;ldquo;There’s software used across the country to predict future criminals.</description>
+    </item>
+    
+    <item>
+      <title>To Explain or to Predict?</title>
+      <link>/blog/drafts/to-explain-or-predict/</link>
+      <pubDate>Thu, 17 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/drafts/to-explain-or-predict/</guid>
+      <description>&amp;ldquo;To Explain or to Predict?&amp;quot;
+ Statistical modeling is a powerful tool for developing and testing theories by way of causal explanation, prediction, and description. In many disciplines there is near-exclusive use of statistical modeling for causal explanation and the assumption that models with high explanatory power are inherently of high predictive power. Conflation between explanation and prediction is common, yet the distinction must be understood for progressing scientific knowledge. While this distinction has been recognized in the philosophy of science, the statistical literature lacks a thorough discussion of the many differences that arise in the process of modeling for an explanatory versus a predictive goal.</description>
+    </item>
+    
+    <item>
+      <title>I Web Therefore I Am</title>
+      <link>/blog/hello-internet/</link>
+      <pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/hello-internet/</guid>
+      <description>Yihui Xie (Yee-how Nee) wrote the R package blogdown to create static websites &amp;ndash; like this one &amp;ndash; using a bifecta of technologies: Hugo and R Markdown.
+I&#39;m really impressed. It&#39;s super fast, responsive, and has a growing community of developers to bring cool themes into the digital universe. Plus it&#39;ll give me the computational flexibility I&#39;m after to showcase analyses that live in R Markdown.
+Because this is my first post, I&#39;ve got to dedicate it to Yihui.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/blog/drafts/da-heck-one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/drafts/da-heck-one/</guid>
+      <description>What do you do, like actually?       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/blog/drafts/da_heck_one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/drafts/da_heck_one/</guid>
+      <description>code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/blog/drafts/machine-bias/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/drafts/machine-bias/</guid>
+      <description>Bias in the Machine?       code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
+    </item>
+    
+    <item>
+      <title>What do you do, like actually?</title>
+      <link>/blog/drafts/da-heck-one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/drafts/da-heck-one/</guid>
+      <description>It&#39;s rare if I&#39;m completely certain of something, but I know I do an insufficient job of describing what I do for a living becuase the same members of family and friend groups ask me the same question almost every time we meet: The disconnect is threefold: 1. &amp;ldquo;Data science&amp;rdquo; sounds super boring; 2. &amp;ldquo;Data science&amp;rdquo; sounds made up; 3. &amp;ldquo;Data Scientist&amp;rdquo; doesn&#39;t tell you much about what&#39;s actually done on the job like other job titles, which give away what they&#39;re about right there in the title, e.</description>
+    </item>
+    
+  </channel>
+</rss>

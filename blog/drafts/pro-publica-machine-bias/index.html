@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Personal website of Brandon Dey">
+
+<base href="/">
+<title>
+
+
+     Bias in the Machine? 
+
+</title>
+<link rel="canonical" href="/blog/drafts/pro-publica-machine-bias/">
+
+
+
+
+
+
+<script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+
+
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/nunito_sans.css">
+
+
+    <link rel="stylesheet" href="css/light-style.css">
+
+
+
+
+
+
+<link rel="shortcut icon" href="img/bdawg_kaya.jpg">
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-122478598-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+</head>
+
+<body>
+
+<div class="section" id="top">
+
+    <div class="container hero fade-in one">
+    <h1 class="bold-title is-1">Blog</h1>
+    </div>
+
+
+<div class="section fade-in two">
+
+    <div class="container">
+    <hr>
+<nav class="nav nav-center">
+    <span id="nav-toggle" class="nav-toggle"  onclick="document.getElementById('nav-menu').classList.toggle('is-active');">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+    <div id="nav-menu" class="nav-left nav-menu">
+      <span class="nav-item">
+        <a href="/">Main</a>
+      </span>
+      <span class="nav-item">
+        <a href="/#about">About</a>
+      </span>
+      
+      <span class="nav-item">
+        <a href="/blog">Back to blog</a>
+      </span>
+      
+      <span class="nav-item">
+        <a href="/#contact">Contact</a>
+      </span>
+    
+      <span class="nav-item">
+        <a href="/index.xml"><i class="fa fa-rss"></i></a>
+      </span>
+    
+    </div>
+</nav>
+<hr>
+
+    </div>
+
+    <div class="container fade-in two">
+        <h2 class="title is-1 top-pad strong-post-title"><a href="/blog/drafts/pro-publica-machine-bias/">Bias in the Machine?</a></h2>
+            <div class="post-data">
+                Jun 3, 2018 |
+                2 minutes read
+            </div>
+
+            
+                <div class="blog-share">
+                Share this:
+                
+                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Read%20Bias%20in%20the%20Machine%3f%20%2fblog%2fdrafts%2fpro-publica-machine-bias%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fa fa-twitter"></i>
+                <span class="hidden">Twitter</span>
+                </a>
+                
+                 
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=%2fblog%2fdrafts%2fpro-publica-machine-bias%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <i class="fa fa-facebook"></i>
+                <span class="hidden">Facebook</span>
+                </a>
+                
+                
+                <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=%2fblog%2fdrafts%2fpro-publica-machine-bias%2f&amp;description=Bias%20in%20the%20Machine%3f"
+                onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+                <i class="fa fa-pinterest"></i>
+                <span class="hidden">Pinterest</span>
+                </a>
+                
+                
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=%2fblog%2fdrafts%2fpro-publica-machine-bias%2f"
+                onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                <i class="fa fa-google-plus"></i>
+                <span class="hidden">Google+</span>
+                </a>
+                
+                </div>
+            
+
+    </div>
+
+    <div class="container markdown fade-in two top-pad">
+        <h2 id="goals-of-this-post">Goals of this post</h2>
+<ol>
+<li>Plot Data Science books over time to show rise in data science tech and conversations.
+- visualize covers of books somehow.
+- <a href="https://docs.aws.amazon.com/AWSECommerceService/latest/DG/becomingDev.html">https://docs.aws.amazon.com/AWSECommerceService/latest/DG/becomingDev.html</a>
+- <a href="https://docs.aws.amazon.com/AWSECommerceService/latest/DG/becomingAssociate.html">https://docs.aws.amazon.com/AWSECommerceService/latest/DG/becomingAssociate.html</a>
+-</li>
+<li>Conclude something about the use of this predicting recidivism to inform sentencing/type of rehabilitation and explain.
+- <a href="https://stackoverflow.com/questions/8251632/amazon-product-api-with-r">https://stackoverflow.com/questions/8251632/amazon-product-api-with-r</a></li>
+</ol>
+<h2 id="intro">Intro</h2>
+<p>I'm over two years late to the party. In the Spring of 2016 Pro Publica wrote an article titled <a href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing">&ldquo;Machine Bias&rdquo;</a>, the gist of which is in its subtitle: &ldquo;There’s software used across the country to predict future criminals. And it’s biased against blacks.&rdquo;</p>
+<p>I've got mental lock jaw on this topic for a few reasons:
+<!-- raw HTML omitted --></p>
+<ol>
+<li>It's a contentious use of predictive modeling.</li>
+<li>It's a terrific opportunity to do some emphatic finger waving over the importance of doing transparent data science.</li>
+<li>My home state of Wisconsin has been one of &ndash; if not &ndash; <em>the</em> most eager adopters of one of the most ubiquitous softwares, COMPAS, that assigns these risk scores, using it in pretty much every stage in the prison system, which you can see in Wisconsin's conception of the offender lifecycle, below (the sunset orangey color represents use of COMPAS):</li>
+</ol>
+<!-- raw HTML omitted -->
+<p>So I'm sufficiently motivated to sink my teeth in.</p>
+<p>Sometimes the question isn't, &ldquo;Can we predict this?&quot;. But &ldquo;Should we?&quot;.</p>
+<p>We do need to continuing having serious, comprehensive, nuanced conversations about the implications of predictive modeling. And we have been.</p>
+<ul>
+<li>Former U.S. Chief Data Scientist, DJ Patil, <a href="https://medium.com/@dpatil/a-code-of-ethics-for-data-science-cda27d1fac1">wrote</a> a call to action among data scientists to get-ta talking about establishing a code of ethics to help guide our practice. (He actually links to Pro Publica's &ldquo;Machine Bias&rdquo; article, which, admittedly, got me rolling with this post you're reading (Mom))</li>
+<li>Cathy O'Neil is galvinizing conversation around the use, consequences, and risks of Big Data and maths in her book <em>Weapons of Math Destruction</em>.</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li><a href="https://www.theatlantic.com/technology/archive/2017/10/algorithms-future-of-health-care/543825/">&ldquo;How Do You Regulate a Self-Improving Algorithm?&quot;</a></li>
+</ul>
+<p>So again, I'm late to a party.</p>
+<p>Commenter FastClock mentioned:</p>
+<blockquote>
+<p>Due process requires that in criminal proceedings the accused be able to confront and cross examine the witnesses against him.</p>
+</blockquote>
+<p>Hear, hear! This will involve taking paint thinner to the black box that <em>usually</em> is data science/analytics/predictive modeling, and making the scientific process transparent, including educating the persons consuming, or implicated by, its results. And that's on us: the data scientists, researchers, analysts of the world who try to make data do useful, helpful, <em>good</em> things for humanity.</p>
+<p>Files to Pro Publica's analysis are on Github <a href="https://github.com/propublica/compas-analysis">here</a>.</p>
+
+    </div>
+
+    <div class="disqus">
+        
+    </div>
+
+<div class="container has-text-centered top-pad">
+<hr>
+<a href="/blog/drafts/pro-publica-machine-bias/#top"><i class="fa fa-arrow-up"></i></a>
+<hr>
+</div>
+
+<div class="section" id="footer">
+    <div class="container has-text-centered">
+        
+            Opinions expressed here are my own, not my employer’s.
+        
+    </div>
+</div>
+
+</div>
+</div>
+
+
+<script>
+$('a[href^="\/blog\/drafts\/pro-publica-machine-bias\/#"]').click(function(e) {
+    e.preventDefault();
+    var target = this.hash;
+    $('html, body').animate({
+    scrollTop: $(target).offset().top
+    }, 500);
+    return false;
+})
+</script>
+
+</body>
